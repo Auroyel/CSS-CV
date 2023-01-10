@@ -1,0 +1,211 @@
+body{
+    background-color: #f6f6f6;
+    /**background-image: url("snow-mountain-house.png");**/
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+}
+h1{
+   margin: 400px auto 0 auto;
+   font-family: 'Poiret One', cursive;
+   font-size: 2.5rem;
+   line-height: 2;
+   color:#494949;
+   text-align: center;
+}
+h2{
+   font-size: 1.5rem; 
+   color: #FF597B;
+   font-weight: normal;
+   text-align: center;
+} 
+h3{
+   font-size: 15px;
+   color:#FF597B;
+   position: relative;
+   text-align: center;
+}  
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color: darkgrey;
+    border-width: 5px;
+    width: 20px;
+    padding: 10px;;
+}
+.top-container {
+    padding-top: 10px;
+}
+.middle-container{
+    margin: auto;
+    text-align: center;
+}
+.profile-picture{
+    height:200px;
+    width:200px;
+    padding-top: 60px;
+    position: relative
+}
+.bio{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}    
+.skill-row{
+    width: 700px;
+    margin: auto;
+}
+.main-skill{
+    text-align: left;    
+}
+.main-skill-description{
+    text-align: left;    
+}
+.coding-png{
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-right: 30px;
+}
+.skill-secondary{
+    text-align: left;    
+}
+.skill-secondary-description{
+    text-align: left;  
+}
+.computer-coding-png{
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin-left: 30px;
+}
+.contact-info{
+    width: 700px;
+    margin: auto;
+}
+.contact-me{
+    text-align: left;
+}
+/*.contact-me-btn{
+    text-align: center;
+    margin: auto;
+} */  
+.contact-me-text{
+    color: #1DB9C3;
+    text-decoration: none;
+}
+.button-container{
+    text-align: center;
+}
+.linkedin-container{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 20px;
+    background-color:#C0EEE4;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.linkedin-link{
+    color: #1DB9C3;
+    text-decoration: none;
+}
+a:hover{
+    color:#FB2576
+}
+.footer-text{
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin:0;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    height: 150px;
+    width: 275px;
+    margin-top: 100px;
+}
+.bottom-cloud{
+    position: relative;
+    left: 200px;
+    height: 100px;
+    width: 205px;
+}
+.snow-mountain{
+    position: fixed, center; 
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
+/*#373B44*/
+.button-contact {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-contact:hover {
+  background: #F6F9FE;
+  color: #FF597B;
+}
+
+.button-contact:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-contact:focus {
+  outline: none;
+  border: 2px solid #FF597B;
+}
+
+.button-contact:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-contact:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-contact:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-contact:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-contact:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
